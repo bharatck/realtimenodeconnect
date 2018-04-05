@@ -29,6 +29,8 @@ ref.child('logs').orderByKey().limitToLast(1).on('child_added',function (snap) {
     console.log(logs);
 
 });
+
+
 //
 // ref.root.once('value')
 //     .then(function (snap) {
